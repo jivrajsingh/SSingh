@@ -55,7 +55,7 @@ public class RegisterUserStep {
 		}
 		
 		new QAFExtendedWebElement("registrationpage.button.submit").click();
-		new QAFExtendedWebElement("registrationpage.msg.success").assertText(DataMap.get("msg"), "User registered message");
+		//new QAFExtendedWebElement("registrationpage.msg.success").assertText(DataMap.get("msg"), "User registered message");
 		
 	}
 }

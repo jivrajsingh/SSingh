@@ -13,6 +13,6 @@ registrationpage.text.uname= {\"locator\":\"id=email\",\"desc\":\"username input
 registrationpage.text.pwd= {\"locator\":\"name=password\",\"desc\":\"username input on Loginpage\"}
 registrationpage.text.cpwd= {\"locator\":\"name=confirmPassword\",\"desc\":\"username input on Loginpage\"}
 registrationpage.button.submit= {\"locator\":\"name=register\",\"desc\":\"username input on Loginpage\"}
-registrationpage.msg.success = {\"locator\":\"xpath=//table[@width='492']/tbody/tr[3]/td\"}
+registrationpage.msg.success = {\"locator\":\"xpath=//table[@width='492']/tbody/tr[3]/td"}
 
 
