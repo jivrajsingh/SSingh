@@ -1,0 +1,9 @@
+loginpage.input.username = {\"locator\":\"name=userName\",\"desc\":\"username input on Loginpage\"}
+loginpage.input.password = {\"locator\":\"name=password\",\"desc\":\"Password input on Loginpage\"}
+loginpage.button.login = {\"locator\":\"name=login\",\"desc\":\"Login button on LoginPage\"}
+loginpage.heading.signon = {\"locator\":\"linkText=SIGN-ON\",\"desc\":\"signon heading\"}
+loginpage.heading.register = {\"locator\":\"linkText=REGISTER\",\"desc\":\"register heading\"}
+loginpage.heading.support = {\"locator\":\"linkText=SUPPORT\",\"desc\":\"support heading\"}
+loginpage.heading.contact = {\"locator\":\"xpath=//a[contains(text(),'CONTACT')]\"}
+loginpage.leftmenu.home= {\"locator\":\"linkText=Home\",\"desc\":\"home left menu\"}
+loginpage.leftmenu.flights= {\"locator\":\"linkText=Flights\",\"desc\":\"flights left menu\"}

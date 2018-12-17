@@ -1,0 +1,12 @@
+flightfinder.radio.triptype1 ={\"locator\":\"value=roundtrip\",\"desc\":\"username input on Loginpage\"}
+flightfinder.radio.triptype2= {\"locator\":\"value=oneway\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.passengers= {\"locator\":\"name=passCount\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.from= {\"locator\":\"name=fromPort\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.frommonth= {\"locator\":\"name=fromMonth\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.fromday= {\"locator\":\"name=fromDay\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.to= {\"locator\":\"name=toPort\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.tomonth= {\"locator\":\"name=toMonth\",\"desc\":\"username input on Loginpage\"}
+flightfinder.select.today= {\"locator\":\"name=toDay\",\"desc\":\"username input on Loginpage\"}
+flightfinder.radio.economy= {\"locator\":\"value=coach\",\"desc\":\"username input on Loginpage\"}
+flightfinder.radio.business= {\"locator\":\"value=Business\",\"desc\":\"username input on Loginpage\"}
+flightfinder.radio.first= {\"locator\":\"value=First\",\"desc\":\"username input on Loginpage\"}
