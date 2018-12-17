@@ -1,0 +1,73 @@
+{
+  "total": 2,
+  "pass": 1,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "mobileEmulationEnabled": "false",
+      "hasTouchScreen": "false",
+      "platform": "XP",
+      "acceptSslCerts": "false",
+      "goog:chromeOptions": "{debuggerAddress=localhost:51737}",
+      "acceptInsecureCerts": "false",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "setWindowRect": "true",
+      "unexpectedAlertBehaviour": "",
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\\Users\\ispluser\\AppData\\Local\\Temp\\scoped_dir12564_18062}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "version": "70.0.3538.110",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "locationContextEnabled": "true",
+      "cssSelectorsEnabled": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "14-RC2",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "30-Nov-2018 09:45:33"
+    },
+    "run-parameters": {
+      "include": "{'module':['Story']}",
+      "scenario.file.loc": "scenarios/suite1.bdd",
+      "password": "guest",
+      "baseurl": "http://newtours.demoaut.com/",
+      "resources": "resources",
+      "exclude": "{}",
+      "username": "guest"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_192",
+      "os.arch": "amd64",
+      "host": "ICPL12616",
+      "os.name": "Windows 10",
+      "user.name": "ispluser",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1544528859676,
+  "endTime": 1544528910893
+}

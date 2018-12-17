@@ -1,0 +1,151 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "username": "guest",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPassword",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544786125681,
+      "duration": 15029,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "index": "2",
+          "username": "guest123",
+          "password": "guest",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPasswordkAjhnFiqcn",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544786140736,
+      "duration": 4456,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "index": "3",
+          "username": "guest123",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPassworddOJebzruKF",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544786145218,
+      "duration": 3695,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "fname": "Elena",
+          "lname": "Gilbert",
+          "phone": "1234567890",
+          "email": "abc@gmail.com",
+          "address": "flat-007, baker street-202",
+          "address2": "west side",
+          "city": "New York",
+          "state": "New York",
+          "postal": "12345",
+          "country": "UNITED STATES",
+          "username": "Elena123",
+          "password": "Elena123",
+          "msg": "Dear Elena Gilbert,Thank you for registering. You may now sign-in using the user name and password you've just entered.",
+          "description": "'Valid User Details'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc2.testcase",
+        "lineNo": 53,
+        "module": "Story",
+        "name": "Click signon and create user",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "ClickSignonAndCreateUser",
+        "sign": "scenarios.suite1.bdd.Click signon and create user( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1544786154589,
+      "duration": 27480,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

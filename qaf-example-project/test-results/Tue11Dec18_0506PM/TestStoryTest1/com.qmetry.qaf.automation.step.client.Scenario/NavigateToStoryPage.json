@@ -1,0 +1,505 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2005
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.input.username]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "[id: 0.0832638789944713-1]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "id: 0.0832638789944713-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.name: userName",
+            "{\"id\":\"0.0832638789944713-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.input.password]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "[id: 0.0832638789944713-2]",
+          "subLogs": [],
+          "duration": 40
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "id: 0.0832638789944713-2",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.name: password",
+            "{\"id\":\"0.0832638789944713-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.signon]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=SIGN-ON, using=link text}"
+          ],
+          "result": "[id: 0.0832638789944713-3]",
+          "subLogs": [],
+          "duration": 52
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=SIGN-ON, using=link text}"
+          ],
+          "result": "id: 0.0832638789944713-3",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: SIGN-ON",
+            "{\"id\":\"0.0832638789944713-3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.signon]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=SIGN-ON, using=link text}"
+          ],
+          "result": "[id: 0.0832638789944713-3]",
+          "subLogs": [],
+          "duration": 37
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=SIGN-ON, using=link text}"
+          ],
+          "result": "id: 0.0832638789944713-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: SIGN-ON",
+            "{\"id\":\"0.0832638789944713-3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.register]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=REGISTER, using=link text}"
+          ],
+          "result": "[id: 0.0832638789944713-4]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=REGISTER, using=link text}"
+          ],
+          "result": "id: 0.0832638789944713-4",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: REGISTER",
+            "{\"id\":\"0.0832638789944713-4\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.support]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=SUPPORT, using=link text}"
+          ],
+          "result": "[id: 0.0832638789944713-5]",
+          "subLogs": [],
+          "duration": 46
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=SUPPORT, using=link text}"
+          ],
+          "result": "id: 0.0832638789944713-5",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: SUPPORT",
+            "{\"id\":\"0.0832638789944713-5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 22
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.contact ]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 53
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 42
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 36
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And assert 'loginpage.leftmenu.home' is visible",
+      "args": [
+        "[loginpage.leftmenu.home]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 5357,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.input.username' is visible",
+      "type": "TestStepPass",
+      "duration": 422,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username input on Loginpage visible : Actual username input on Loginpage visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_jumk41y8ar2l57235.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.input.password' is visible",
+      "type": "TestStepPass",
+      "duration": 358,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Password input on Loginpage visible : Actual Password input on Loginpage visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_11fxkjty45irq57236.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.signon' is visible",
+      "type": "TestStepPass",
+      "duration": 354,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected signon heading visible : Actual signon heading visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_1t2qk3m2vil6q57237.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.signon' is visible",
+      "type": "TestStepPass",
+      "duration": 330,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected signon heading visible : Actual signon heading visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_1qppmdyf1ui5j57238.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.register' is visible",
+      "type": "TestStepPass",
+      "duration": 359,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected register heading visible : Actual register heading visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_bj1t3l2pwlhq57239.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.support' is visible",
+      "type": "TestStepPass",
+      "duration": 372,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected support heading visible : Actual support heading visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_1lwt7cgkrhvr157240.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.contact ' is visible",
+      "type": "TestStepFail",
+      "screenshot": "img/NavigateToStoryPage_1nqi6jr2b73jw57242.png",
+      "duration": 10752,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '] visible : Actual By.xpath: //*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '] not visible",
+          "type": "Fail",
+          "screenshot": "img/NavigateToStoryPage_i7ngifv2mqiz57241.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.leftmenu.home' is visible",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\r\n\tat .And assert 'loginpage.heading.contact ' is visible(scenarios/suite1.bdd:13)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertVisible(QAFExtendedWebElement.java:1031)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertVisible_aroundBody20(CommonStep.java:262)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertVisible(CommonStep.java:261)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\r\n"
+}

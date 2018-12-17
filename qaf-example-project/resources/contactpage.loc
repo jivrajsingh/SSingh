@@ -1,0 +1,3 @@
+contactpage.button.backhome = {\"locator\":\"xpath=//img[@src='/images/forms/home.gif']\"}
+loginpage.leftmenu.home= {\"locator\":\"linkText=Home\",\"desc\":\"home left menu\"}
+contactpage.text.underConstruction = {\"locator\":\"xpath=//font[@face='Arial, Helvetica, sans-serif'][@size='2']\"}

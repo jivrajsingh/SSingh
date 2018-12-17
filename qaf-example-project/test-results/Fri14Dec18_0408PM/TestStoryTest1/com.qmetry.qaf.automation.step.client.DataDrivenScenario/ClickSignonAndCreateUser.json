@@ -1,0 +1,723 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1645
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.register]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=REGISTER, using=link text}"
+          ],
+          "result": "[id: 0.1829449355746966-1]",
+          "subLogs": [],
+          "duration": 39
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=REGISTER, using=link text}"
+          ],
+          "result": "id: 0.1829449355746966-1",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.linkText: REGISTER",
+            "{\"id\":\"0.1829449355746966-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 29
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[loginpage.heading.register]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=REGISTER, using=link text}"
+          ],
+          "result": "id: 0.1829449355746966-1",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: REGISTER",
+            "{\"id\":\"0.1829449355746966-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1081
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "filldeatilsinform",
+      "args": [
+        "[${args[0]}]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=firstName, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-1",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: firstName",
+            "{\"id\":\"0.38469269302154263-1\",\"value\":[\"Elena\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=lastName, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-2",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: lastName",
+            "{\"id\":\"0.38469269302154263-2\",\"value\":[\"Gilbert\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 89
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=phone, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-3",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: phone",
+            "{\"id\":\"0.38469269302154263-3\",\"value\":[\"1234567890\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 110
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=userName, using=id}"
+          ],
+          "result": "id: 0.38469269302154263-4",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: userName",
+            "{\"id\":\"0.38469269302154263-4\",\"value\":[\"abc@gmail.com\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 128
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=address1, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-5",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: address1",
+            "{\"id\":\"0.38469269302154263-5\",\"value\":[\"flat-007, baker street-202\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 198
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=address2, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-6",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: address2",
+            "{\"id\":\"0.38469269302154263-6\",\"value\":[\"west side\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=city, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-7",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: city",
+            "{\"id\":\"0.38469269302154263-7\",\"value\":[\"New York\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=postalCode, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-8",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: postalCode",
+            "{\"id\":\"0.38469269302154263-8\",\"value\":[\"12345\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 72
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=state, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-9",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: state",
+            "{\"id\":\"0.38469269302154263-9\",\"value\":[\"New York\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 95
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=country, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-10",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.name: country",
+            "{\"id\":\"0.38469269302154263-10\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=country, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-10",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.name: country",
+            "{\"name\":\"multiple\",\"id\":\"0.38469269302154263-10\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=country, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-10",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.name: country",
+            "{\"using\":\"xpath\",\"id\":\"0.38469269302154263-10\",\"value\":\".//option[normalize-space(.) = \\\"UNITED STATES\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 0.38469269302154263-11]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 0.38469269302154263-11",
+            "{\"id\":\"0.38469269302154263-11\"}"
+          ],
+          "result": "isElementSelected:true",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=email, using=id}"
+          ],
+          "result": "id: 0.38469269302154263-12",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: email",
+            "{\"id\":\"0.38469269302154263-12\",\"value\":[\"Elena123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 94
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-13",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: password",
+            "{\"id\":\"0.38469269302154263-13\",\"value\":[\"Elena123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 86
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=confirmPassword, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-14",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: confirmPassword",
+            "{\"id\":\"0.38469269302154263-14\",\"value\":[\"Elena123\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 83
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=register, using=name}"
+          ],
+          "result": "id: 0.38469269302154263-15",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: register",
+            "{\"id\":\"0.38469269302154263-15\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 11982
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "[id: 0.4559655631300752-1]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@width='492']/tbody/tr[3]/td, using=xpath}"
+          ],
+          "result": "id: 0.4559655631300752-1",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //table[@width='492']/tbody/tr[3]/td",
+            "{\"id\":\"0.4559655631300752-1\"}"
+          ],
+          "result": "getElementText:Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And assert 'registrationpage.msg.success' is visible",
+      "args": [
+        "[registrationpage.msg.success]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 1645,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.heading.register' is visible",
+      "type": "TestStepPass",
+      "duration": 383,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected register heading visible : Actual register heading visible",
+          "type": "Pass",
+          "screenshot": "img/ClickSignonAndCreateUser_lbrwwatb0i3j59023.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on 'loginpage.heading.register'",
+      "type": "TestStepPass",
+      "duration": 1110,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then fill details in form ''${args[0]}''",
+      "type": "TestStepFail",
+      "screenshot": "img/ClickSignonAndCreateUser_lou3393hn0ol59025.png",
+      "duration": 24324,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected User registered message text should be Dear Elena Gilbert,Thank you for registering. You may now sign-in using the user name and password you've just entered. : Actual User registered message text is Dear Elena Gilbert,\nThank you for registering. You may now sign-in using the user name and password you've just entered.\nNote: Your user name is Elena123.",
+          "type": "Fail",
+          "screenshot": "img/ClickSignonAndCreateUser_pmwox7d8s0cg59024.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'registrationpage.msg.success' is visible",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\r\n\tat .Then fill details in form '${args[0]}'(scenarios/suite1.bdd:59)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertText(QAFExtendedWebElement.java:1055)\r\n\tat qaf.practice.steps.RegisterUserStep.filldeatilsinform(RegisterUserStep.java:58)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

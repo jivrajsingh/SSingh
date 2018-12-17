@@ -1,0 +1,327 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1148
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.input.username]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "[id: 0.3361214011413356-1]",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "id: 0.3361214011413356-1",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.name: userName",
+            "{\"id\":\"0.3361214011413356-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 24
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.input.password]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "[id: 0.3361214011413356-2]",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "id: 0.3361214011413356-2",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.name: password",
+            "{\"id\":\"0.3361214011413356-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.table.leftmenu]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='2']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[id: 0.3361214011413356-3, id: 0.3361214011413356-4, id: 0.3361214011413356-5, id: 0.3361214011413356-6, id: 0.3361214011413356-7, id: 0.3361214011413356-8, id: 0.3361214011413356-9]",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//table[@border='2']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "id: 0.3361214011413356-3",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //table[@border='2']/tbody/tr[@class=\"mouseOut\"]",
+            "{\"id\":\"0.3361214011413356-3\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.table.aboveLinks]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//table[@border='1']/tbody/tr[@class=\"mouseOut\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 26
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 1148,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.input.username' is visible",
+      "type": "TestStepPass",
+      "duration": 529,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username input on Loginpage visible : Actual username input on Loginpage visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_1vxvo3e6myedt2841.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.input.password' is visible",
+      "type": "TestStepPass",
+      "duration": 430,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Password input on Loginpage visible : Actual Password input on Loginpage visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_8tupvpo4gzwd2842.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.table.leftmenu' is visible",
+      "type": "TestStepPass",
+      "duration": 404,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Test Scenario table left Menu visible : Actual Test Scenario table left Menu visible",
+          "type": "Pass",
+          "screenshot": "img/NavigateToStoryPage_1lastxyn2m7492843.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.table.aboveLinks' is visible",
+      "type": "TestStepFail",
+      "screenshot": "img/NavigateToStoryPage_1igu6c2oe2x1u2845.png",
+      "duration": 10658,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Test Scenario table Uppler links visible : Actual Test Scenario table Uppler links not visible",
+          "type": "Fail",
+          "screenshot": "img/NavigateToStoryPage_75e40ak543xc2844.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError\r\n\tat .And assert 'loginpage.table.aboveLinks' is visible(scenarios/suite1.bdd:10)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertVisible(QAFExtendedWebElement.java:1031)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertVisible_aroundBody20(CommonStep.java:262)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.assertVisible(CommonStep.java:261)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)\r\n"
+}

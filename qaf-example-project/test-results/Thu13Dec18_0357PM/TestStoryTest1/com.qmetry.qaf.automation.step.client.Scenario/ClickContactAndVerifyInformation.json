@@ -1,0 +1,320 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 980
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.heading.contact]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//a[contains(text(),'CONTACT')], using=xpath}"
+          ],
+          "result": "[id: 0.20833727675336466-1]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'CONTACT')], using=xpath}"
+          ],
+          "result": "id: 0.20833727675336466-1",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //a[contains(text(),'CONTACT')]",
+            "{\"id\":\"0.20833727675336466-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[loginpage.heading.contact]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//a[contains(text(),'CONTACT')], using=xpath}"
+          ],
+          "result": "id: 0.20833727675336466-1",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //a[contains(text(),'CONTACT')]",
+            "{\"id\":\"0.20833727675336466-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1132
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[contactpage.text.underConstruction]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//font[@face='Arial, Helvetica, sans-serif'][@size='2'], using=xpath}"
+          ],
+          "result": "[id: 0.990353330595144-1, id: 0.990353330595144-2, id: 0.990353330595144-3, id: 0.990353330595144-4]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//font[@face='Arial, Helvetica, sans-serif'][@size='2'], using=xpath}"
+          ],
+          "result": "id: 0.990353330595144-1",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //font[@face='Arial, Helvetica, sans-serif'][@size='2']",
+            "{\"id\":\"0.990353330595144-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 23
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[contactpage.button.backhome]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+          ],
+          "result": "[id: 0.990353330595144-5]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+          ],
+          "result": "id: 0.990353330595144-5",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //img[@src='/images/forms/home.gif']",
+            "{\"id\":\"0.990353330595144-5\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[contactpage.button.backhome]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//img[@src='/images/forms/home.gif'], using=xpath}"
+          ],
+          "result": "id: 0.990353330595144-5",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //img[@src='/images/forms/home.gif']",
+            "{\"id\":\"0.990353330595144-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1077
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertVisible",
+      "args": [
+        "[loginpage.input.username]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "[id: 0.03217701253102323-1]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "id: 0.03217701253102323-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.name: userName",
+            "{\"id\":\"0.03217701253102323-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 981,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.heading.contact' is visible",
+      "type": "TestStepPass",
+      "duration": 350,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //a[contains(text(),'CONTACT')] visible : Actual By.xpath: //a[contains(text(),'CONTACT')] visible",
+          "type": "Pass",
+          "screenshot": "img/ClickContactAndVerifyInformation_omcmk8dy86rq38299.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on 'loginpage.heading.contact'",
+      "type": "TestStepPass",
+      "duration": 1159,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'contactpage.text.underConstruction' is visible",
+      "type": "TestStepPass",
+      "duration": 342,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //font[@face='Arial, Helvetica, sans-serif'][@size='2'] visible : Actual By.xpath: //font[@face='Arial, Helvetica, sans-serif'][@size='2'] visible",
+          "type": "Pass",
+          "screenshot": "img/ClickContactAndVerifyInformation_vltfzuaz44vq38300.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And  assert 'contactpage.button.backhome' is visible",
+      "type": "TestStepPass",
+      "duration": 341,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected By.xpath: //img[@src='/images/forms/home.gif'] visible : Actual By.xpath: //img[@src='/images/forms/home.gif'] visible",
+          "type": "Pass",
+          "screenshot": "img/ClickContactAndVerifyInformation_210ldo6wetob38301.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then click on 'contactpage.button.backhome'",
+      "type": "TestStepPass",
+      "duration": 1092,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.input.username' is visible",
+      "type": "TestStepPass",
+      "duration": 369,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected username input on Loginpage visible : Actual username input on Loginpage visible",
+          "type": "Pass",
+          "screenshot": "img/ClickContactAndVerifyInformation_4qt1qzukxh5w38302.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
