@@ -7,7 +7,7 @@
     <method-selectors>
       <method-selector>
         <script language="beanshell">
-          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Login to Dashboard with username and password")||testngMethod.getMethodName().equalsIgnoreCase("Click signon and create user")]]>
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Click signon and create user")]]>
         </script>
       </method-selector>
     </method-selectors>

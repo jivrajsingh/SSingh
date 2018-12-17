@@ -17,7 +17,6 @@
       </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
       <class name="com.qmetry.qaf.automation.step.client.Scenario">
         <methods>
-          <include name="scenario"/>
           <include name="setupTest"/>
           <include name="setupSuit"/>
           <include name="setup"/>

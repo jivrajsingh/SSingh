@@ -2,6 +2,21 @@
   "reports": [
     {
       "name": "QAF Example",
+      "dir": "test-results/Mon17Dec18_0132PM",
+      "startTime": 1545033729155
+    },
+    {
+      "name": "QAF Example",
+      "dir": "test-results/Mon17Dec18_0126PM",
+      "startTime": 1545033413866
+    },
+    {
+      "name": "QAF Example",
+      "dir": "test-results/Mon17Dec18_0109PM",
+      "startTime": 1545032385090
+    },
+    {
+      "name": "QAF Example",
       "dir": "test-results/Fri14Dec18_0408PM",
       "startTime": 1544783907278
     },
