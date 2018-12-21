@@ -7,11 +7,11 @@
     <method-selectors>
       <method-selector>
         <script language="beanshell">
-          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Click signon and create user")]]>
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Login and book a flight")]]>
         </script>
       </method-selector>
     </method-selectors>
-    <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
+    <parameter name="scenario.file.loc" value="scenarios/flightsBook.bdd"/>
     <classes>
       <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
     </classes>

@@ -4,19 +4,11 @@
   <parameter name="include" value="{&#039;module&#039;:[&#039;Story&#039;]}"/>
   <parameter name="exclude" value="{}"/>
   <test name="Test Story - Test 1(failed)">
-    <parameter name="scenario.file.loc" value="scenarios/suite1.bdd"/>
+    <parameter name="scenario.file.loc" value="scenarios/flightsBook.bdd"/>
     <classes>
-      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
-        <methods>
-          <include name="scenario" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="afterClass"/>
-          <include name="setupMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
       <class name="com.qmetry.qaf.automation.step.client.Scenario">
         <methods>
+          <include name="scenario"/>
           <include name="setupTest"/>
           <include name="setupSuit"/>
           <include name="setup"/>
