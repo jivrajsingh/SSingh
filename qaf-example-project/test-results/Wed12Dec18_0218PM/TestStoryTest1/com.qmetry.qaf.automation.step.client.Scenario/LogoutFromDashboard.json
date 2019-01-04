@@ -1,0 +1,160 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1181
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "loginWithAnd",
+      "args": [
+        "[${env.username}, ${env.password}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=userName, using=name}"
+          ],
+          "result": "id: 0.08638361882664225-1",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: userName",
+            "{\"id\":\"0.08638361882664225-1\",\"value\":[\"guest\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 73
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=password, using=name}"
+          ],
+          "result": "id: 0.08638361882664225-2",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: password",
+            "{\"id\":\"0.08638361882664225-2\",\"value\":[\"guest\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 66
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=login, using=name}"
+          ],
+          "result": "id: 0.08638361882664225-3",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: login",
+            "{\"id\":\"0.08638361882664225-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4723
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=findFlights, using=name}"
+          ],
+          "result": "[id: 0.5062081998059094-1]",
+          "subLogs": [],
+          "duration": 39
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logoutFrom",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=SIGN-OFF, using=link text}"
+          ],
+          "result": "id: 0.5062081998059094-2",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.linkText: SIGN-OFF",
+            "{\"id\":\"0.5062081998059094-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1540
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=login, using=name}"
+          ],
+          "result": "[id: 0.7854681043088594-1]",
+          "subLogs": [],
+          "duration": 19
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 1182,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then login with 'guest' and 'guest'",
+      "type": "TestStepPass",
+      "duration": 4952,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then logout from",
+      "type": "TestStepPass",
+      "duration": 1587,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

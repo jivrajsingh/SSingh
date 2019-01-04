@@ -1,0 +1,106 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "username": "guest",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPassword",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544697083752,
+      "duration": 3362,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "index": "2",
+          "username": "guest123",
+          "password": "guest",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPasswordnsGEhKQcqY",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544697087127,
+      "duration": 3834,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "index": "3",
+          "username": "guest123",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPasswordmPHRzoHwEi",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544697090975,
+      "duration": 3960,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://newtours.demoaut.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 776
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "loginWithInvalidDetails",
+      "args": [
+        "[${args[0]}, ${args[1]}]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And assert 'loginpage.heading.signon' is visible",
+      "args": [
+        "[loginpage.heading.signon]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And assert 'loginpage.heading.signon' is visible",
+      "args": [
+        "[loginpage.heading.signon]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And assert 'DashBoard.link.signoff' is not visible",
+      "args": [
+        "[DashBoard.link.signoff]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get '/'",
+      "type": "TestStepPass",
+      "duration": 777,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then login with invalid details '{index=1, summary=Simple test case summary, description='guest123','guest'}' and '${args[1]}'",
+      "type": "TestStepFail",
+      "screenshot": "img/LogoutFromDashboard_n2zuk227wibg27527.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And assert 'loginpage.heading.signon' is visible",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'loginpage.heading.signon' is visible",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'DashBoard.link.signoff' is not visible",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Then login with invalid details '${args[0]}' and '${args[1]}'(scenarios/suite1.bdd:33)\r\n\tat com.qmetry.qaf.automation.step.QAFTestStepArgumentFormatterImpl.getObject(QAFTestStepArgumentFormatterImpl.java:118)\r\n\tat com.qmetry.qaf.automation.step.QAFTestStepArgumentFormatterImpl.getPropValue(QAFTestStepArgumentFormatterImpl.java:113)\r\n\tat com.qmetry.qaf.automation.step.QAFTestStepArgumentFormatterImpl.format(QAFTestStepArgumentFormatterImpl.java:58)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.processArgs(JavaStep.java:245)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:152)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)\r\n"
+}

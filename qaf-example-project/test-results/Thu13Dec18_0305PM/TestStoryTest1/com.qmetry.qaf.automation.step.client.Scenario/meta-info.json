@@ -1,0 +1,105 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "navigation",
+        "enabled": true,
+        "groups": [
+          "P1",
+          "Story"
+        ],
+        "lineNo": 1.0,
+        "module": "Story",
+        "name": "Navigate to story page",
+        "priority": 1000.0,
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "NavigateToStoryPage",
+        "sign": "scenarios.suite1.bdd.Navigate to story page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1544693702050,
+      "duration": 8142,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "navigation",
+        "enabled": true,
+        "groups": [
+          "P1",
+          "Story"
+        ],
+        "lineNo": 22.0,
+        "module": "Story",
+        "name": "Logout from Dashboard",
+        "priority": 1000.0,
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LogoutFromDashboard",
+        "sign": "scenarios.suite1.bdd.Logout from Dashboard()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1544693710213,
+      "duration": 63306,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "navigation",
+        "enabled": true,
+        "groups": [
+          "P1",
+          "Story"
+        ],
+        "lineNo": 15.0,
+        "module": "Story",
+        "name": "Login to Dashboard with username and password",
+        "priority": 1000.0,
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginToDashboardWithUsernameAndPassword",
+        "sign": "scenarios.suite1.bdd.Login to Dashboard with username and password()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1544693773535,
+      "duration": 101156,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "lineNo": 40,
+        "module": "Story",
+        "name": "Click contact and verify information",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "ClickContactAndVerifyInformation",
+        "sign": "scenarios.suite1.bdd.Click contact and verify information()[pri:1004, instance:com.qmetry.qaf.automation.step.client.Scenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1544693887950,
+      "duration": 3130,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

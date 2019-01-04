@@ -1,0 +1,106 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "username": "guest",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Logout from Dashboard",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LogoutFromDashboard",
+        "sign": "scenarios.suite1.bdd.Logout from Dashboard( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544604765365,
+      "duration": 3775,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "index": "2",
+          "username": "guest123",
+          "password": "guest",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Logout from Dashboard",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LogoutFromDashboardKpgXeWfTzh",
+        "sign": "scenarios.suite1.bdd.Logout from Dashboard( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544604769152,
+      "duration": 3952,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "index": "3",
+          "username": "guest123",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29,
+        "module": "Story",
+        "name": "Logout from Dashboard",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LogoutFromDashboardAPheQVBfeZ",
+        "sign": "scenarios.suite1.bdd.Logout from Dashboard( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544604773117,
+      "duration": 4871,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

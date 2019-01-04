@@ -1,0 +1,208 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "username": "guest",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPassword",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777413253,
+      "duration": 3660,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "index": "2",
+          "username": "guest123",
+          "password": "guest",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPasswordThawjkjmHg",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777416928,
+      "duration": 3503,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "index": "3",
+          "username": "guest123",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 29.0,
+        "module": "Story",
+        "name": "Login with invalid username or/and password",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginWithInvalidUsernameOrAndPassworduzmWBiwURj",
+        "sign": "scenarios.suite1.bdd.Login with invalid username or/and password( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777420444,
+      "duration": 3559,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "index": "1",
+          "username": "guest",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 53.0,
+        "module": "Story",
+        "name": "Click signon and create user",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "ClickSignonAndCreateUser",
+        "sign": "scenarios.suite1.bdd.Click signon and create user( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777428272,
+      "duration": 11894,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "index": "2",
+          "username": "guest123",
+          "password": "guest",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 53.0,
+        "module": "Story",
+        "name": "Click signon and create user",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "ClickSignonAndCreateUserJBJeFMdiFr",
+        "sign": "scenarios.suite1.bdd.Click signon and create user( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777440483,
+      "duration": 11773,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "index": "3",
+          "username": "guest123",
+          "password": "guest123",
+          "description": "'Invalid Username password'"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "enabled": true,
+        "groups": [
+          "SMOKE",
+          "Story",
+          "Test Authoring",
+          "Create"
+        ],
+        "key": "data.tc1.testcase",
+        "lineNo": 53,
+        "module": "Story",
+        "name": "Click signon and create user",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "ClickSignonAndCreateUserZTkdCJRjqz",
+        "sign": "scenarios.suite1.bdd.Click signon and create user( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1544777452560,
+      "duration": 11750,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

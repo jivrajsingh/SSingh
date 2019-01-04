@@ -1,0 +1,54 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "navigation",
+        "enabled": true,
+        "groups": [
+          "P1",
+          "Story"
+        ],
+        "lineNo": 1.0,
+        "module": "Story",
+        "name": "Navigate to story page",
+        "priority": 1000.0,
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "NavigateToStoryPage",
+        "sign": "scenarios.suite1.bdd.Navigate to story page()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1544528725165,
+      "duration": 21833,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "navigation",
+        "enabled": true,
+        "groups": [
+          "P1",
+          "Story"
+        ],
+        "lineNo": 17,
+        "module": "Story",
+        "name": "Login to Dashboard",
+        "priority": 1000,
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "LoginToDashboard",
+        "sign": "scenarios.suite1.bdd.Login to Dashboard()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1544528747348,
+      "duration": 92369,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

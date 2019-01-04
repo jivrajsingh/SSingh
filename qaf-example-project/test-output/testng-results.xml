@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.register' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected register heading visible : Actual register heading visible <a href="img/LoginAndBookAFlight_278jkanx4ks53454.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on 'loginpage.heading.register'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then fill details in form bean 'data.valid.userdata'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'registrationpage.msg.success' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //table[@width='492']/tbody/tr[3]/td visible : Actual By.xpath: //table[@width='492']/tbody/tr[3]/td visible <a href="img/LoginAndBookAFlight_1hc7engyzkkh153455.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAF Example" duration-ms="23136" started-at="2018-12-21T06:41:57Z" finished-at="2018-12-21T06:42:20Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.flightsBook.bdd.Login and book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Login and book a flight" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- P1 -->
+      <group name="Story">
+        <method signature="scenarios.flightsBook.bdd.Login and book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Login and book a flight" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- Story -->
+    </groups>
+    <test name="Test Story - Test 1" duration-ms="23099" started-at="2018-12-21T06:41:57Z" finished-at="2018-12-21T06:42:20Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="setupTest" is-config="true" duration-ms="2" started-at="2018-12-21T12:11:57Z" finished-at="2018-12-21T12:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="setup" is-config="true" duration-ms="0" started-at="2018-12-21T12:11:57Z" finished-at="2018-12-21T12:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-12-21T12:11:57Z" finished-at="2018-12-21T12:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Login and book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="Login and book a flight" duration-ms="22801" started-at="2018-12-21T12:11:57Z" description="navigation" finished-at="2018-12-21T12:12:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.register' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected register heading visible : Actual register heading visible <a href="img/LoginAndBookAFlight_278jkanx4ks53454.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on 'loginpage.heading.register'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then fill details in form bean 'data.valid.userdata'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'registrationpage.msg.success' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //table[@width='492']/tbody/tr[3]/td visible : Actual By.xpath: //table[@width='492']/tbody/tr[3]/td visible <a href="img/LoginAndBookAFlight_1hc7engyzkkh153455.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login and book a flight -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-21T12:12:19Z" finished-at="2018-12-21T12:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Login and book a flight status=SUCCESS method=scenarios.flightsBook.bdd.Login and book a flight()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.register' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected register heading visible : Actual register heading visible <a href="img/LoginAndBookAFlight_278jkanx4ks53454.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on 'loginpage.heading.register'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then fill details in form bean 'data.valid.userdata'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'registrationpage.msg.success' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //table[@width='492']/tbody/tr[3]/td visible : Actual By.xpath: //table[@width='492']/tbody/tr[3]/td visible <a href="img/LoginAndBookAFlight_1hc7engyzkkh153455.png" target="_blank">[View Screenshot]</a> </div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-21T12:12:19Z" finished-at="2018-12-21T12:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="afterTest" is-config="true" duration-ms="241" started-at="2018-12-21T12:12:19Z" finished-at="2018-12-21T12:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@799f10e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- Test Story - Test 1 -->
+    <test name="JAVA Test" duration-ms="1" started-at="2018-12-21T06:42:20Z" finished-at="2018-12-21T06:42:20Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="setupSuit" is-config="true" duration-ms="24" started-at="2018-12-21T12:11:57Z" finished-at="2018-12-21T12:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@409bf450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Login and book a flight" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-12-21T12:12:20Z" finished-at="2018-12-21T12:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@409bf450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- JAVA Test -->
+  </suite> <!-- QAF Example -->
+</testng-results>
