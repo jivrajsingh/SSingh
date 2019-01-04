@@ -25,7 +25,7 @@ public class RegisterUserStep extends BaseDataBean {
 
 		new QAFExtendedWebElement("registrationpage.text.lname").sendKeys(baseDataBean.getlName());
 
-		new QAFExtendedWebElement("registrationpage.text.phone").sendKeys(baseDataBean.getPhone());
+		new QAFExtendedWebElement("registrationpage.text.phone").sendKeys((CharSequence[]) baseDataBean.getPhone());
 
 		new QAFExtendedWebElement("registrationpage.text.email").sendKeys(baseDataBean.getEmail());
 
@@ -35,7 +35,7 @@ public class RegisterUserStep extends BaseDataBean {
 
 		new QAFExtendedWebElement("registrationpage.text.city").sendKeys(baseDataBean.getCity());
 
-		new QAFExtendedWebElement("registrationpage.text.pcode").sendKeys(baseDataBean.getPostal());
+		new QAFExtendedWebElement("registrationpage.text.pcode").sendKeys((CharSequence[]) baseDataBean.getPostal());
 
 		new QAFExtendedWebElement("registrationpage.text.state").sendKeys(baseDataBean.getState());
 

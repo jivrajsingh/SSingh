@@ -3,12 +3,36 @@
 <parameter name="exclude" value="{}" />
 	<parameter name="include" value="{'module':['Story']}" />
 
-<test name="Test Story - Test 1" enabled="true">
-	<parameter name="scenario.file.loc" value="scenarios/flightfinder.bdd"></parameter>
+<test name="Test Story - Test 2" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/verLoginLogout.bdd"></parameter>
 		<classes>
 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>
 	</test>
-
+<test name="Test Story - Test 3" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/verLoginLogout.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>	
 	
+<test name="Test Story - Test 4" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/invalidUserLogin.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>	
+<test name="Test Story - Test 5" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/verifyContact.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>	
+	
+<test name="Test Story - Test 6" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/createUser.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>	
 </suite>

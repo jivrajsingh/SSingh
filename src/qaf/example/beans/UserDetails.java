@@ -3,36 +3,34 @@ package qaf.example.beans;
 
 
 	import com.qmetry.qaf.automation.data.BaseDataBean;
-import com.qmetry.qaf.automation.util.RandomStringGenerator.RandomizerTypes;
-import com.qmetry.qaf.automation.util.Randomizer;
 
 	public class UserDetails  extends BaseDataBean {
 		
-		@Randomizer(length=20,type=RandomizerTypes.LETTERS_ONLY)
+		
 	    private String fName;
-		@Randomizer(length=20,type=RandomizerTypes.LETTERS_ONLY)
+		
 	    private String lName;
-		@Randomizer(length=10,type=RandomizerTypes.DIGITS_ONLY)
-	    private String phone;
-		@Randomizer(suffix=".com",type=RandomizerTypes.MIXED)
+		
+	    private Object phone;
+		
 	    private String email;
-		@Randomizer(length=20)
+	    
 	    private String address1;
-		@Randomizer(length=20)
+		
 	    private String address2;
-		@Randomizer(length=20)
+		
 	    private String city;
-		@Randomizer(length=20)
+	
 	    private String state;
-		@Randomizer(type=RandomizerTypes.DIGITS_ONLY)
-	    private String postal;
-		@Randomizer(length=20)
+		
+	    private Object postal;
+		
 	    private String country;
-		@Randomizer(length=20)
+		
 	    private String username;
-		@Randomizer(length=20)
+		
 	    private String password;
-		@Randomizer(length=20)
+	
 	    private String cpassword;
 
 	    public String getCpassword() {
@@ -43,7 +41,7 @@ import com.qmetry.qaf.automation.util.Randomizer;
 			this.cpassword = cpassword;
 		}
 
-		public String getPhone() {
+		public Object getPhone() {
 			return phone;
 		}
 
@@ -103,7 +101,7 @@ import com.qmetry.qaf.automation.util.Randomizer;
 			this.state = state;
 		}
 
-		public String getPostal() {
+		public Object getPostal() {
 			return postal;
 		}
 
