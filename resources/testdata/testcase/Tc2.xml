@@ -1,0 +1,25 @@
+<root>
+	<!-- data for testcase creation and association-->
+	<data>
+		<tc2>
+			<testcase>
+				<index>1</index>
+				<fname>Elena</fname>
+				<lname>Gilbert</lname>
+				<phone>1234567890</phone>
+				<email>abc@gmail.com</email>
+				<address>flat-007, baker street-202</address>
+				<address2>west side</address2>
+				<city>New York</city>
+				<state>New York</state>
+				<postal>12345</postal>
+				<country>UNITED STATES</country>
+				<username>Elena123</username>
+				<password>Elena123</password>
+				<msg>Dear Elena Gilbert,Thank you for registering. You may now sign-in using the user name and password you've just entered.</msg>
+				<!-- <issue-type>Test Case</issue-type> -->
+				<description>'Valid User Details'</description>
+			</testcase>			
+		</tc2>
+	</data>	
+</root>

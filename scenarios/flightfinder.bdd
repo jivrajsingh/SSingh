@@ -1,0 +1,7 @@
+SCENARIO: Login and find a flight
+META-DATA: {"description":"Login to application and book a flight","groups":["P1","Story"],"priority":1000,"module":"Story","enabled":true,"key":"data.tc1.testcase"}
+	Given get '/'
+	When login with '${env.username}' and '${env.password}'
+	Then fill details in flightfinder 'data.valid.flight'
+END	
+

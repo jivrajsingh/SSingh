@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="QAF Example" verbose="0">
+<parameter name="exclude" value="{}" />
+	<parameter name="include" value="{'module':['Story']}" />
+
+<test name="Test Story - Test 1" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios/flightfinder.bdd"></parameter>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+	
+</suite>

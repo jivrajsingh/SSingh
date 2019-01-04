@@ -1,0 +1,33 @@
+SCENARIO: Navigate to story page
+META-DATA: {"description":"verify login page","groups":["P1","Story"],"priority":1000,"module":"Story","enabled":true}
+	
+	Given get '/'
+	And assert 'loginpage.input.username' is visible
+	And assert 'loginpage.input.password' is visible
+	And assert 'loginpage.heading.signon' is visible
+	And assert 'loginpage.heading.register' is visible
+	And assert 'loginpage.heading.support' is visible
+	And assert 'loginpage.heading.contact' is visible
+	And assert 'loginpage.leftmenu.home' is visible
+	And assert 'loginpage.leftmenu.flights' is visible
+END
+
+SCENARIO: Login to Dashboard with username and password
+META-DATA: {"description":"login with correct user name password","groups":["P1","Story"],"priority":1000,"module":"Story","enabled":true}
+	
+	Given get '/'
+	Then login with '${env.username}' and '${env.password}'	
+END
+
+SCENARIO: Logout from Dashboard
+META-DATA: {"description":"navigation","groups":["P1","Story"],"priority":1000,"module":"Story","enabled":true}
+	Given get '/'
+	Then login with '${env.username}' and '${env.password}'	
+	Then logout from	
+END
+
+
+
+
+
+

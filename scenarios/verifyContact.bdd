@@ -1,0 +1,12 @@
+SCENARIO: Click contact and verify information
+META-DATA: {"description":"","groups":["SMOKE","Story","Test Authoring","Create"],"module":"Story","enabled":true}
+
+	Given get '/'	
+	And assert 'loginpage.heading.contact' is visible
+	Then click on 'loginpage.heading.contact'
+	And assert 'contactpage.text.underConstruction' is visible
+	And  assert 'contactpage.button.backhome' is visible
+	Then click on 'contactpage.button.backhome'
+	And assert 'loginpage.input.username' is visible
+	
+END
