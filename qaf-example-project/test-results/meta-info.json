@@ -2,348 +2,188 @@
   "reports": [
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1211PM",
-      "startTime": 1545374517075
+      "dir": "test-results/Fri4Jan19_0438PM",
+      "startTime": 1546600129392
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1210PM",
-      "startTime": 1545374408824
+      "dir": "test-results/Fri4Jan19_0424PM",
+      "startTime": 1546599299310
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1208PM",
-      "startTime": 1545374322682
+      "dir": "test-results/Fri4Jan19_0356PM",
+      "startTime": 1546597588711
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1207PM",
-      "startTime": 1545374240346
+      "dir": "test-results/Fri4Jan19_0331PM",
+      "startTime": 1546596075483
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1205PM",
-      "startTime": 1545374136051
+      "dir": "test-results/Fri4Jan19_0321PM",
+      "startTime": 1546595481532
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1204PM",
-      "startTime": 1545374064859
+      "dir": "test-results/Fri4Jan19_0250PM",
+      "startTime": 1546593628695
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1203PM",
-      "startTime": 1545374015934
+      "dir": "test-results/Fri4Jan19_0244PM",
+      "startTime": 1546593240133
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1200PM",
-      "startTime": 1545373819766
+      "dir": "test-results/Fri4Jan19_0222PM",
+      "startTime": 1546591939074
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1144AM",
-      "startTime": 1545372894746
+      "dir": "test-results/Fri4Jan19_0211PM",
+      "startTime": 1546591297467
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1142AM",
-      "startTime": 1545372737458
+      "dir": "test-results/Fri4Jan19_0210PM",
+      "startTime": 1546591241949
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1137AM",
-      "startTime": 1545372463603
+      "dir": "test-results/Fri4Jan19_1251PM",
+      "startTime": 1546586506160
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1127AM",
-      "startTime": 1545371843451
+      "dir": "test-results/Fri4Jan19_0844AM",
+      "startTime": 1546571651821
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1126AM",
-      "startTime": 1545371782106
+      "dir": "test-results/Fri4Jan19_0839AM",
+      "startTime": 1546571386725
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1125AM",
-      "startTime": 1545371758477
+      "dir": "test-results/Fri4Jan19_0831AM",
+      "startTime": 1546570915146
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1124AM",
-      "startTime": 1545371689227
+      "dir": "test-results/Fri4Jan19_0829AM",
+      "startTime": 1546570793242
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1059AM",
-      "startTime": 1545370184960
+      "dir": "test-results/Fri4Jan19_0828AM",
+      "startTime": 1546570730966
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri21Dec18_1016AM",
-      "startTime": 1545367594914
+      "dir": "test-results/Fri4Jan19_0828AM",
+      "startTime": 1546570714306
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Wed19Dec18_0138PM",
-      "startTime": 1545206932027
+      "dir": "test-results/Fri4Jan19_0827AM",
+      "startTime": 1546570647797
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Wed19Dec18_1113AM",
-      "startTime": 1545198227242
+      "dir": "test-results/Fri4Jan19_0823AM",
+      "startTime": 1546570401950
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Wed19Dec18_1112AM",
-      "startTime": 1545198144479
+      "dir": "test-results/Fri4Jan19_0817AM",
+      "startTime": 1546570043766
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Tue18Dec18_0453PM",
-      "startTime": 1545132202884
+      "dir": "test-results/Thu3Jan19_0357PM",
+      "startTime": 1546511232537
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Tue18Dec18_0436PM",
-      "startTime": 1545131211575
+      "dir": "test-results/Thu3Jan19_0355PM",
+      "startTime": 1546511151415
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Tue18Dec18_0434PM",
-      "startTime": 1545131068699
+      "dir": "test-results/Thu3Jan19_0340PM",
+      "startTime": 1546510246077
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Mon17Dec18_0132PM",
-      "startTime": 1545033729155
+      "dir": "test-results/Thu3Jan19_0335PM",
+      "startTime": 1546509916892
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Mon17Dec18_0126PM",
-      "startTime": 1545033413866
+      "dir": "test-results/Thu3Jan19_0325PM",
+      "startTime": 1546509301476
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Mon17Dec18_0109PM",
-      "startTime": 1545032385090
+      "dir": "test-results/Thu3Jan19_0318PM",
+      "startTime": 1546508890068
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0408PM",
-      "startTime": 1544783907278
+      "dir": "test-results/Thu3Jan19_0315PM",
+      "startTime": 1546508737169
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0251PM",
-      "startTime": 1544779279159
+      "dir": "test-results/Thu3Jan19_0303PM",
+      "startTime": 1546507990895
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0247PM",
-      "startTime": 1544779049468
+      "dir": "test-results/Thu3Jan19_0245PM",
+      "startTime": 1546506913314
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0236PM",
-      "startTime": 1544778413340
+      "dir": "test-results/Thu3Jan19_0237PM",
+      "startTime": 1546506432932
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0226PM",
-      "startTime": 1544777789937
+      "dir": "test-results/Thu3Jan19_0236PM",
+      "startTime": 1546506367857
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0224PM",
-      "startTime": 1544777658273
+      "dir": "test-results/Thu3Jan19_0234PM",
+      "startTime": 1546506273925
     },
     {
       "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0218PM",
-      "startTime": 1544777324707
+      "dir": "test-results/Thu3Jan19_0233PM",
+      "startTime": 1546506187480
     },
     {
-      "name": "QAF Example",
-      "dir": "test-results/Fri14Dec18_0854AM",
-      "startTime": 1544757872818
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_0357PM",
-      "startTime": 1544696844964
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_0351PM",
-      "startTime": 1544696499573
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_0317PM",
-      "startTime": 1544694433990
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_0305PM",
-      "startTime": 1544693701983
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_1048AM",
-      "startTime": 1544678287200
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Thu13Dec18_1040AM",
-      "startTime": 1544677851913
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0222PM",
-      "startTime": 1544604743716
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0218PM",
-      "startTime": 1544604519684
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0217PM",
-      "startTime": 1544604434606
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0202PM",
-      "startTime": 1544603552019
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0200PM",
-      "startTime": 1544603447246
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0155PM",
-      "startTime": 1544603122391
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_0145PM",
-      "startTime": 1544602550715
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_1230PM",
-      "startTime": 1544598040245
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_1229PM",
-      "startTime": 1544597980557
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_1220PM",
-      "startTime": 1544597424638
+      "name": "QAF Demo",
+      "dir": "test-results/Thu3Jan19_0225PM",
+      "startTime": 1546505751917
     },
     {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_1212PM",
-      "startTime": 1544596959743
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Wed12Dec18_1206PM",
-      "startTime": 1544596613317
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0551PM",
-      "startTime": 1544530884294
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0545PM",
-      "startTime": 1544530503986
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0542PM",
-      "startTime": 1544530372224
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0527PM",
-      "startTime": 1544529440281
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0519PM",
-      "startTime": 1544528965252
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0515PM",
-      "startTime": 1544528725104
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0506PM",
-      "startTime": 1544528202351
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0505PM",
-      "startTime": 1544528105408
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0446PM",
-      "startTime": 1544527015632
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0251PM",
-      "startTime": 1544520078823
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0228PM",
-      "startTime": 1544518680221
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0223PM",
-      "startTime": 1544518384219
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0222PM",
-      "startTime": 1544518340478
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0219PM",
-      "startTime": 1544518160832
-    },
-    {
-      "name": "QAF Example",
-      "dir": "test-results/Tue11Dec18_0209PM",
-      "startTime": 1544517569376
+      "name": "QAF Demo",
+      "dir": "test-results/Thu3Jan19_0222PM",
+      "startTime": 1546505523486
     },
     {
-      "name": "Default suite",
-      "dir": "test-results/Mon10Dec18_0436PM",
-      "startTime": 1544439994916
+      "name": "QAF Demo",
+      "dir": "test-results/Thu3Jan19_0214PM",
+      "startTime": 1546505043907
     },
     {
-      "name": "Default suite",
-      "dir": "test-results/Mon10Dec18_0416PM",
-      "startTime": 1544438760027
+      "name": "QAF Demo",
+      "dir": "test-results/Thu3Jan19_0213PM",
+      "startTime": 1546504987026
     }
   ]
 }

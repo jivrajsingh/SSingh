@@ -1,0 +1,10 @@
+SCENARIO: Click signon and create user
+META-DATA: {"description":"","groups":["SMOKE","Story","Test Authoring","Create"],"module":"Story","enabled":true,"key":"data.tc2.testcase"}
+
+	Given get '/'	
+	And assert 'loginpage.heading.register' is visible
+	Then click on 'loginpage.heading.register'
+	Then fill details in form '${args[0]}'
+	And assert 'registrationpage.msg.success' is visible
+	
+END

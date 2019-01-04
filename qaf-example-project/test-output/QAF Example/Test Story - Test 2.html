@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Story - Test 2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 11 17:17:19 IST 2018</td>
+<td>Started on:</td><td>Fri Jan 04 16:38:49 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>70 seconds (70987 ms)</td>
+<tr><td>Total time:</td><td>95 seconds (95145 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,49 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qmetry.qaf.automation.step.client.Scenario.Navigate to story page()'><b>Navigate to story page</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Navigate to story page)<br>Test method: navigation<br/>
-<a href="#Output-428039780" onClick='toggleBox("Output-428039780", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-428039780" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-428039780">
-<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.input.username' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected username input on Loginpage visible : Actual username input on Loginpage visible <a href="img/NavigateToStoryPage_nv2n9if0msfy61641.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.input.password' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Password input on Loginpage visible : Actual Password input on Loginpage visible <a href="img/NavigateToStoryPage_1x7agl8pk62o961642.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.signon' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected signon heading visible : Actual signon heading visible <a href="img/NavigateToStoryPage_1rnglhgcqgsci61643.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.signon' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected signon heading visible : Actual signon heading visible <a href="img/NavigateToStoryPage_49siopaei14z61644.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.register' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected register heading visible : Actual register heading visible <a href="img/NavigateToStoryPage_3lw2kza7avov61645.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.support' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected support heading visible : Actual support heading visible <a href="img/NavigateToStoryPage_ui163hjj3ukb61646.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And assert 'loginpage.heading.contact ' is visible <a href="img/NavigateToStoryPage_ce4igrwzffj861648.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Expected By.xpath: //*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '] visible : Actual By.xpath: //*[@name='loginpage.heading.contact ' or @id='loginpage.heading.contact ' or @value='loginpage.heading.contact '] not visible <a href="img/NavigateToStoryPage_e53q5fxg4dcf61647.png" target="_blank">[View Screenshot]</a> </div><div  class="fail"><span class="fail-label">F </span>null</div></div><div  class="teststep"><span class="teststep-label">T </span>And assert 'loginpage.leftmenu.home' is visible</div></div><br/>
-</div>
-</td>
-<td><div><pre>java.lang.AssertionError
-	at .And assert &apos;loginpage.heading.contact &apos; is visible(scenarios/suite1.bdd:13)
-	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertVisible(QAFExtendedWebElement.java:1031)
-	at com.qmetry.qaf.automation.step.CommonStep.assertVisible_aroundBody20(CommonStep.java:262)
-	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
-	at com.qmetry.qaf.automation.step.CommonStep.assertVisible(CommonStep.java:261)
-	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
-	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
-	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
-	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)
-	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)
-</pre></div><a href='#' onClick='toggleBox("stack-trace428039780", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace428039780'><pre>java.lang.AssertionError
-	at .And assert &apos;loginpage.heading.contact &apos; is visible(scenarios/suite1.bdd:13)
-	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.assertVisible(QAFExtendedWebElement.java:1031)
-	at com.qmetry.qaf.automation.step.CommonStep.assertVisible_aroundBody20(CommonStep.java:262)
-	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
-	at com.qmetry.qaf.automation.step.CommonStep.assertVisible(CommonStep.java:261)
-	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:153)
-	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
-	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
-	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:173)
-	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:225)
-</pre></div></td>
-<td>19</td>
-<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -118,16 +75,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qmetry.qaf.automation.step.client.Scenario.Login to Dashboard()'><b>Login to Dashboard</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Login to Dashboard)<br>Test method: navigation<br/>
-<a href="#Output-888287133" onClick='toggleBox("Output-888287133", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Login to Dashboard with username and password()'><b>Login to Dashboard with username and password</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Login to Dashboard with username and password)<br>Test method: login with correct user name password<br/>
+<a href="#Output-1839168128" onClick='toggleBox("Output-1839168128", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-888287133" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-888287133">
+<a href="#Output-1839168128" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1839168128">
 <div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then login with 'guest' and 'guest'</div></div><br/>
 </div>
 </td>
 <td></td>
-<td>51</td>
+<td>16</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Logout from Dashboard()'><b>Logout from Dashboard</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Logout from Dashboard)<br>Test method: navigation<br/>
+<a href="#Output-807322507" onClick='toggleBox("Output-807322507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807322507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807322507">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then login with 'guest' and 'guest'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then logout from</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Navigate to story page()'><b>Navigate to story page</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Navigate to story page)<br>Test method: verify login page<br/>
+<a href="#Output-1653361344" onClick='toggleBox("Output-1653361344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1653361344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1653361344">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.input.username' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected username input on Loginpage visible : Actual username input on Loginpage visible <a href="img/NavigateToStoryPage_3yk7ufb556go46203.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.input.password' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Password input on Loginpage visible : Actual Password input on Loginpage visible <a href="img/NavigateToStoryPage_1v5fl32asetp46204.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.signon' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected signon heading visible : Actual signon heading visible <a href="img/NavigateToStoryPage_1d52bqymsz9fn46205.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.register' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected register heading visible : Actual register heading visible <a href="img/NavigateToStoryPage_mc8uclbusd9246206.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.support' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected support heading visible : Actual support heading visible <a href="img/NavigateToStoryPage_1g93s224ijlgr46207.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.heading.contact' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.xpath: //a[contains(text(),'CONTACT')] visible : Actual By.xpath: //a[contains(text(),'CONTACT')] visible <a href="img/NavigateToStoryPage_13ywqem65nhp146208.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.leftmenu.home' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected home left menu visible : Actual home left menu visible <a href="img/NavigateToStoryPage_11zex0asw0j7j46209.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'loginpage.leftmenu.flights' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected flights left menu visible : Actual flights left menu visible <a href="img/NavigateToStoryPage_1issatsjwe4kp46210.png" target="_blank">[View Screenshot]</a> </div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
 <td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
 </table><p>
 </body>

@@ -1,0 +1,9 @@
+SCENARIO: Login with invalid username or/and password
+META-DATA: {"description":"","groups":["SMOKE","Story","Test Authoring","Create"],"module":"Story","enabled":true,"key":"data.tc1.testcase"}
+
+	Given get '/'
+	Then login with invalid details '${args[0]}'	
+	And assert 'loginpage.heading.signon' is visible
+	And assert 'DashBoard.link.signoff' is not visible
+	
+END

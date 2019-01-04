@@ -1,2 +1,0 @@
-DashBoard.button.continue= {\"locator\":\"name=findFlights\",\"desc\":\"Login button on LoginPage\"}
-DashBoard.link.signoff= {\"locator\":\"linkText=SIGN-OFF\",\"desc\":\"sign off link\"}
