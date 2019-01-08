@@ -7,3 +7,4 @@ loginpage.heading.support = {\"locator\":\"linkText=SUPPORT\",\"desc\":\"support
 loginpage.heading.contact = {\"locator\":\"xpath=//a[contains(text(),'CONTACT')]\"}
 loginpage.leftmenu.home= {\"locator\":\"linkText=Home\",\"desc\":\"home left menu\"}
 loginpage.leftmenu.flights= {\"locator\":\"linkText=Flights\",\"desc\":\"flights left menu\"}
+ 
